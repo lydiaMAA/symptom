@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@drawable/backkk"
     android:orientation="vertical">
 
     <TextView
@@ -51,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="fièvre,toux sèche,fatigue"
-            android:paddingTop="10dp"/>
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"/>
 
 
     </LinearLayout>
@@ -89,6 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingTop="5dp"
+            android:textColor="@android:color/black"
             android:text="courbatures,maux de gorge,diarrhée,conjonctivite,maux de tête,perte de l’odorat ou du goût,éruption cutanée, ou décoloration des doigts ou des orteils" />
 
 
@@ -127,6 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingTop="5dp"
+            android:textColor="@android:color/black"
             android:text="difficultés à respirer ou essoufflement,sensation d’oppression ou douleur au niveau de la poitrine,perte d’élocution ou de motricité" />
 
     </LinearLayout>
